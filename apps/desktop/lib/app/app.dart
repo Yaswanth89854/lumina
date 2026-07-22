@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-import '../features/startup/startup_page.dart';
+import 'router.dart';
 import 'theme.dart';
 
 class LuminaApp extends StatelessWidget {
@@ -8,11 +8,11 @@ class LuminaApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
-      title: 'Lumina',
+    return MaterialApp.router(
       debugShowCheckedModeBanner: false,
+      title: 'Lumina',
       theme: luminaTheme,
-      home: const StartupPage(),
+      routerConfig: appRouter,
     );
   }
 }
