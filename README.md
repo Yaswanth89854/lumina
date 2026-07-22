@@ -1,25 +1,38 @@
 # Lumina
 
-Lumina is an offline-first, AI-powered creative writing platform designed for novelists, researchers, screenwriters, and long-form writers.
+> Offline-first AI-powered Creative Writing Platform
 
 ## Vision
 
-Help writers think, organize, write, revise, and publish from one unified workspace.
+Lumina is a professional creative writing platform built for novelists, researchers, screenwriters, and long-form writers.
 
-## Status
+It combines writing, planning, knowledge management, AI assistance, and publishing into a single unified workspace.
+
+## Current Status
 
 🚧 Phase 1 – Foundation Engineering
 
-## Architecture
+## Tech Stack
 
 - Flutter
+- Dart
 - Riverpod
-- Isar
+- Isar Database
 - Markdown
 - Offline First
 - Plugin Architecture
 - AI Ready
 
+## Repository Structure
+
+```
+apps/
+packages/
+docs/
+scripts/
+tools/
+```
+
 ## License
 
-MIT
+MIT License
